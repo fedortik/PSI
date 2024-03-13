@@ -18,13 +18,13 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/
 
-# SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-6s8(#t&nn3980b8#7$713cape(s2&g3c93kwb@r$!j%&)ynsqc'
+# SECURITY WARNING: keep the secre1t key used in production secret!
+SECRET_KEY = ''
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['94.241.143.20', '127.0.0.1']
+ALLOWED_HOSTS = ['127.0.0.1']
 
 # Application definition
 
@@ -166,4 +166,4 @@ EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 
 EMAIL_HOST_USER = 'fedortik@gmail.com'
-EMAIL_HOST_PASSWORD = 'ypie olyu gdas djqx'
+EMAIL_HOST_PASSWORD = ''
